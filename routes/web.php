@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/tasks', 'App\Http\Controllers\TaskController@index');
+Route::get('/tasks/create', 'App\Http\Controllers\TaskController@create');
+Route::post('/tasks', 'App\Http\Controllers\TaskController@store');
+Route::delete('/tasks/{id}', 'App\Http\Controllers\TaskController@destroy');
