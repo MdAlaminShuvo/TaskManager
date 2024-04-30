@@ -14,6 +14,6 @@ class Task extends Model
         'description',
         'priority',
         'status',
-        'image'
+        'image',
     ];
 }

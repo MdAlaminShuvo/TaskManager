@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('status')->default('New');
             $table->string('image')->nullable();
             $table->boolean('is_deleted')->default(false);
+            $table->timestamp('lastUpdated')->nullable();
             $table->timestamps();
         });
     }
