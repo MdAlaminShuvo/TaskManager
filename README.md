@@ -1,6 +1,13 @@
 API Documentation Link: https://documenter.getpostman.com/view/9157134/2sA3JDhkGc
 
+Introduction
+This document provides an overview and documentation for the Task Management System built using the Laravel framework.
 
+Features
+Create, read, update, and delete tasks.
+Tasks contain title, description, priority, assignee, image upload, and status.
+Status options: New, In Progress, Testing, Deployed.
+Soft delete for tasks.
 
 
 
