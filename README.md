@@ -8,6 +8,7 @@ Create, read, update, and delete tasks.
 Tasks contain title, description, priority, assignee, image upload, and status.
 Status options: New, In Progress, Testing, Deployed.
 Soft delete for tasks.
+
 3. Controller Implementation
 Create a TaskController for tasks.
 Implement validation for input data.
