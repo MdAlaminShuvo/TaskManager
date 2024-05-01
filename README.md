@@ -8,6 +8,7 @@ Create, read, update, and delete tasks.
 Tasks contain title, description, priority, assignee, image upload, and status.
 Status options: New, In Progress, Testing, Deployed.
 Soft delete for tasks.
+jwt authentication
 
 3. Controller Implementation
 Create a TaskController for tasks.
@@ -17,6 +18,8 @@ Implement logic for status transitions based on the requirements (e.g., preventi
 4. View/Layout Design
 Design UI for creating, updating, and viewing tasks.
 Include forms for task creation/update with fields for title, description, priority, image upload, and status.
+5. Authentication
+Implement authentication for users using jwt  for API authentication.
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
